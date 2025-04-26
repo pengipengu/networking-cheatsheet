@@ -45,11 +45,18 @@ Date: April 24, 2025
 - Created and edited file:
 	touch progress-tracker.md
 	nano progress-tracker.md
-		(Ctrl + 0 to save, CTRL + X to exit) 
+		(Ctrl + 0 to save, CTRL + X to exit)
+ 
 - Commited and pushed:
 	git add progress-tracker.md
 	git commit -m "Add progress tracker"
 	git push -u origin progress-tracker
+
+- Since may branch, in order to have a "remote" version of it, you can do:
+	git push --set-upstream origin progress-tracker 
+tas if may future changes you can now just do:
+	git push
+
 
 [Common Git Commands]:
 git init 				->	initialize repo
@@ -71,6 +78,9 @@ git remote add origin <repourl>		->	Connect local repo to Github Web
 git push -u origin main 		->	Push na!
 
 git checkout -b name 			-> 	create and checkout(switch) sa new branch
+
+git push --set-upstream origin		-> 	basis where it will be pushed. 
+							basically, clarifiy where it WILL be pushed. technically diba, yung -u yung "-upstream" pero if --set-upstream, manually mo ilink sa branch 
 
 ==================================
 
@@ -99,3 +109,10 @@ Branch 	->	git branch -M main
 Link	-> 	git remote add origin <repo-url>
 Push	->	git push -u origin main
 DONE	-> 	LEZGO!
+
+=================================
+APRIL 26, 2025
+=================================
+
+- Will try to push this change to the repository
+- Recalling git commands
