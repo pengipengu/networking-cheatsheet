@@ -5,6 +5,6 @@ APRIL 29, 2025
 		SWITCH = FRAMES = LAYER 2
 
 For references: 
-go to C:\Users\Carlos Sierra\Downloads\CCNA Network Chuck\What is a Switch
+go to C:\Users\[MY NAME]\Downloads\CCNA Network Chuck\What is a Switch
 ================================
 
