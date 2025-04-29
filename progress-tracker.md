@@ -116,3 +116,25 @@ APRIL 26, 2025
 
 - Will try to push this change to the repository
 - Recalling git commands
+
+=================================
+APRIL 27, 2025
+=================================
+LOTS OF GIT COMMANDS I DISCOVERED TODAY!!
+
+Not that sure (di ko nakita how it worked) pero may isa, which is git reset --hard HEAD~1 which i got this: "HEAD is now at 7798db5 April 26, 2025: Trying to recall git commands" - Local Changes Only!
+
+These are for local changes only, if gusto mo mag undo talaga tapos MAWALA lahat ng changes na nacommit sa github web version (RISKY!) - do git push --force. (Mas safe parin pag di tinotouch ang remote, kaya dapat mag branch)
+
+
+The git commands:
+
+git reset --soft HEAD~1 		-> 	good for fixing messages
+git reset --mixed HEAD~1 		-> 	good for re-seleting files
+git reset --hard HEAD~1			-> 	DANGER ZONE (discard everything)
+
+
+i think kaya HEAD~1 kasi aatras ung head (pointer) ng isa 
+
+
+
